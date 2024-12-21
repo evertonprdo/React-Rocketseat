@@ -1,3 +1,4 @@
+import { memo } from 'react'
 import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { z } from 'zod'
@@ -13,7 +14,7 @@ const searchFormSchema = z.object({
 
 type SearchFormSchema = z.infer<typeof searchFormSchema>
 
-export function SearchForm() {
+function SearchFormComponent() {
    const fetchTransactions = useTransactionsSelector('fetchTransactions')
 
    const {
@@ -46,3 +47,5 @@ export function SearchForm() {
       </SearchFormContainer>
    )
 }
+
+export const SearchForm = memo(SearchFormComponent)
