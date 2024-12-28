@@ -14,15 +14,16 @@ interface Props {
 const orderStatusMap: Record<OrderStatus, string[]> = {
    pending: ['Pendente', 'bg-slate-400'],
    canceled: ['Cancelado', 'bg-rose-500'],
-   delivered: ['Entregue', 'bg-emerald-500'],
-   delivering: ['Em entrega', 'bg-amber-500'],
    processing: ['Em preparo', 'bg-amber-500'],
+   delivering: ['Em entrega', 'bg-amber-500'],
+   delivered: ['Entregue', 'bg-emerald-500'],
 }
 
 export function OrderStatus({ status }: Props) {
    return (
       <div className="flex-items-center gap-2">
          <div
+            data-testid="badge"
             className={cn(
                'mr-2 inline-block h-2 w-2 rounded-full',
                orderStatusMap[status][1],

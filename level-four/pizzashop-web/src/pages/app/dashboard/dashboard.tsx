@@ -8,7 +8,6 @@ import { PopularProductsChart } from './popular-products-chart'
 import { RevenueChart } from './revenue-chart'
 
 export function Dashboard() {
-   throw new Error('olo')
    return (
       <>
          <Helmet title="Dashboard" />
