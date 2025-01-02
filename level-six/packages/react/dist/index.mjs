@@ -198,6 +198,7 @@ var Heading = styled("h2", {
     size: "md"
   }
 });
+Heading.displayName = "Heading";
 
 // src/components/Avatar/styles.ts
 import * as Avatar from "@radix-ui/react-avatar";
@@ -236,6 +237,7 @@ function Avatar2(props) {
     /* @__PURE__ */ jsx3(AvatarFallback, { delayMs: 600, children: /* @__PURE__ */ jsx3(User, {}) })
   ] });
 }
+Avatar2.displayName = "Avatar";
 
 // src/components/Button.tsx
 var Button = styled("button", {
@@ -308,6 +310,7 @@ var Button = styled("button", {
     size: "md"
   }
 });
+Button.displayName = "Button";
 
 // src/components/TextInput/styles.ts
 var TextInputContainer = styled("div", {
@@ -386,6 +389,7 @@ var TextArea = styled("textarea", {
     color: "$gray400"
   }
 });
+TextArea.displayName = "TextArea";
 
 // src/components/Checkbox/index.tsx
 import { Check } from "@phosphor-icons/react";
@@ -446,6 +450,7 @@ import { jsx as jsx5 } from "react/jsx-runtime";
 function Checkbox2(props) {
   return /* @__PURE__ */ jsx5(CheckboxContainer, __spreadProps(__spreadValues({}, props), { children: /* @__PURE__ */ jsx5(CheckboxIndicator, { asChild: true, children: /* @__PURE__ */ jsx5(Check, { weight: "bold" }) }) }));
 }
+Checkbox2.displayName = "Checkbox";
 
 // src/components/MultiStep/styles.ts
 var MultiStepContainer = styled("div", {});
