@@ -1,0 +1,5 @@
+import{A as p}from"./index-TZP939nG.js";import"./index-BzhKaBtb.js";import"./_commonjsHelpers-CqkleIqs.js";import"./index-CrpACTr-.js";import"./index-BJF6IZRk.js";const g={title:"Data display/Avatar",component:p,args:{src:"https://media.licdn.com/dms/image/v2/D4E03AQGtc-BYjfRZZA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1731770748788?e=1741219200&v=beta&t=loHGWvwxiIme9dJtO2q7ZRsHwgEm-bvzD0Y-1x2Nefk",alt:"avatar"},argTypes:{src:{control:{type:"text"}}}},r={},a={args:{src:void 0}};var t,s,e;r.parameters={...r.parameters,docs:{...(t=r.parameters)==null?void 0:t.docs,source:{originalSource:"{}",...(e=(s=r.parameters)==null?void 0:s.docs)==null?void 0:e.source}}};var o,i,c;a.parameters={...a.parameters,docs:{...(o=a.parameters)==null?void 0:o.docs,source:{originalSource:`{
+  args: {
+    src: undefined
+  }
+}`,...(c=(i=a.parameters)==null?void 0:i.docs)==null?void 0:c.source}}};const u=["Primary","WithFallback"];export{r as Primary,a as WithFallback,u as __namedExportsOrder,g as default};
