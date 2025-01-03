@@ -1,5 +1,5 @@
 {
-   "name": "@ignite-ui/tokens",
+   "name": "@prdo-learning/tokens",
    "version": "1.0.0",
    "main": "./dist/index.js",
    "module": "./dist/index.mjs",
@@ -15,8 +15,8 @@
    "type": "commonjs",
    "description": "",
    "devDependencies": {
-      "@ignite-ui/ts-config": "*",
-      "@ignite-ui/eslint-config": "*",
+      "@prdo-learning/ts-config": "*",
+      "@prdo-learning/eslint-config": "*",
       "tsup": "^8.3.5",
       "typescript": "^5.7.2"
    }

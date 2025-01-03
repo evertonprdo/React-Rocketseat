@@ -6,7 +6,7 @@ import {
   lineHeights,
   radii,
   space,
-} from '@ignite-ui/tokens'
+} from '@prdo-learning/tokens'
 import { createStitches, defaultThemeMap } from '@stitches/react'
 
 export const {

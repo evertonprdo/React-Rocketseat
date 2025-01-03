@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-ui/docs",
+  "name": "@prdo-learning/docs",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,10 +13,10 @@
     "deploy-storybook": "storybook-to-ghpages"
   },
   "dependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*",
-    "@ignite-ui/ts-config": "*",
+    "@prdo-learning/eslint-config": "*",
+    "@prdo-learning/react": "*",
+    "@prdo-learning/tokens": "*",
+    "@prdo-learning/ts-config": "*",
     "@phosphor-icons/react": "^2.1.7",
     "polished": "^4.3.1",
     "react": "^18.3.1",

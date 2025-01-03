@@ -1,6 +1,6 @@
 {
-   "name": "@ignite-ui/react",
-   "version": "1.0.0",
+   "name": "@prdo-learning/react",
+   "version": "2.0.0",
    "main": "./dist/index.js",
    "module": "./dist/index.mjs",
    "types": "./dist/index.d.ts",
@@ -14,9 +14,9 @@
    "license": "MIT",
    "description": "",
    "devDependencies": {
-      "@ignite-ui/eslint-config": "*",
-      "@ignite-ui/tokens": "*",
-      "@ignite-ui/ts-config": "*",
+      "@prdo-learning/eslint-config": "*",
+      "@prdo-learning/tokens": "*",
+      "@prdo-learning/ts-config": "*",
       "@types/react": "^19.0.2",
       "@types/react-dom": "^19.0.2",
       "react": "^19.0.0",
