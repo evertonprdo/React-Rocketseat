@@ -1,3 +1,20 @@
 {
-   "transactions": []
+  "transactions": [
+    {
+      "description": "Sample Income",
+      "price": 12,
+      "category": "Sample",
+      "type": "income",
+      "createdAt": "2025-03-08T13:41:19.914Z",
+      "id": 1
+    },
+    {
+      "description": "Sample outcome",
+      "price": 3,
+      "category": "Sample",
+      "type": "outcome",
+      "createdAt": "2025-03-08T13:41:38.387Z",
+      "id": 2
+    }
+  ]
 }
