@@ -12,7 +12,7 @@ export function Sidebar() {
          />
 
          <div className={styles.profile}>
-            <Avatar src="https://media.licdn.com/dms/image/v2/D4E03AQGtc-BYjfRZZA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1731770748788?e=1740009600&v=beta&t=mVSSH_9oKrqddbLsnTKl4LHwSvpp4xd6CXG_Ir5p9BA" />
+            <Avatar src="https://github.com/evertonprdo.png" />
 
             <strong>Everton Prdo</strong>
             <span>Developer</span>
